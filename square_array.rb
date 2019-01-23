@@ -5,7 +5,7 @@ def square_array(array)
 end
 end
  
- =BEGIN
+ =begin
  ([1, 2, 3]).each(*(array))
 
 new_array=[]
@@ -18,4 +18,4 @@ new_array=[]
   end
   return square_array
 end 
-=END
+=end
