@@ -6,4 +6,4 @@ def square_array(array)
 end
 end
 
-numbers.each do |array|
+#numbers.each do |array|
