@@ -1,8 +1,8 @@
 def square_array(array)
   numbers = [1, 2, 3]
-  ([1, 2, 3]).each(*(array))
+  numbers.each(*) do |array|
     puts "#{array}"
 end
 end
-
-#numbers.each do |array|
+ 
+ #([1, 2, 3]).each(*(array))
