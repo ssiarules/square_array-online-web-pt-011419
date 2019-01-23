@@ -6,3 +6,7 @@ end
 end
  
  #([1, 2, 3]).each(*(array))
+
+new_array=[]
+  array.each{|num|new_array<<num**2}
+  new_array 
